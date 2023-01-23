@@ -1,0 +1,215 @@
+h3 {
+    font-weight: bold;
+}
+#conteneur{
+    border:medium grey inset;
+    width: 800px;
+    height: 900px;
+    margin: 0px auto 0px auto;
+    position:absolute;
+}
+#entete {
+    background-color: lightgray;
+    width: 794px;
+    height: 250px;
+    border:medium grey inset;
+}
+/*#BarreDeNavigation {
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+    top: 25px;
+    right: 50px;
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+
+}*/
+#corps {
+position: relative;
+    background-color: silver;
+    width: 800px;
+    height: 650px;
+}
+#ContenuDroit {
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    float: right;
+    border:medium grey inset;
+}
+#plangauche {
+    height: 550px;
+    width: 400px;
+    background-color: skyblue;
+    border:medium grey inset;
+}
+#pied {
+    background-color: lightgray;
+    width: 794px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    border:medium grey inset;
+}
+p {
+
+    color: black;
+}
+#contacts{
+    color: black;
+    text-align: center;
+}
+.image{
+    display: inline;
+    margin-left:15px;
+}
+#titre{
+    font-size: xx-large;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    height: 10px;
+}
+#image{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border:medium lightgray inset;
+    width: 100px;
+    height: 125px;
+
+
+}
+#colonneGauche {
+    margin-top: 75px;
+    margin-left: -200px;
+    height: 100px;
+    width: 50px;
+    float: left;
+}
+#objectif{
+    float: left;
+    margin-left: -170px;
+    margin-top: 25px;
+    font-size: small;
+}
+.colonne_1{
+    height: 150px;
+}
+#bloc_2entete {
+    margin-top: 75px;
+    height: 100px;
+    width: 50px;
+    float: right;
+}
+#colonneDroite{
+    float: left;
+    margin-left:-175px;
+}
+#logo{
+    margin-left: -150px;
+
+}
+#telephone{
+    display: block;
+    margin-top: 5px;
+}
+#mail{
+    display: block;
+    margin-top: 5px;
+}
+
+#localisation{
+    display: block;
+    margin-top: 5px;
+    margin-left: -2px;
+}
+.pDroite {
+    display: inline;
+    font-size: x-small;
+ }
+ a:hover {
+     color: yellow;
+ }
+.ligne {
+    width: 400px;
+    border: black thin solid;
+}
+.Titre{
+    text-align: center;
+}
+#listelangue {
+    float: left;
+    margin-left: 20px;
+    display: block;
+}
+.langue{
+    font-size: small;
+}
+.Titre2 {
+    margin-top: 80px;
+    text-align: center;
+}
+.txtGauche {
+    font-size: small;
+    float: left;
+    margin-left: 100px;
+}
+.txtmillieu {
+    float: left;
+    margin-left: 65px;
+    font-size: small;
+}
+.txtmillieu1 {
+    float: left;
+    margin-left: 65px;
+    font-size: small;
+    margin-top: 25px;
+}
+.txtDroite {
+float: right;
+    margin-right: 30px;
+    font-size: small;
+}
+#txt2Gauche{
+    margin-top: 55px;
+    margin-left: -205px;
+}
+#Experienceprofessionnelle{
+    text-align: center;
+    margin-top: 125px;
+}
+#txtspeciale {
+    float: left;
+    margin-left: 95px;
+    font-size: small;
+}
+
+table {
+    border : black thin solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: black thin solid;
+    background-color: white;
+}
+th{
+    border: black thin solid;
+    background-color: darkgray;
+}
+label {
+    padding-right: 1px;
+    font-size: 1rem;
+
+}
+#tableau {
+    width: 250px;
+    height: 104px;
+    margin-top: 150px;
+    margin-left:20px;
+}
