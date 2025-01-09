@@ -11,7 +11,7 @@ jobs:
     runs-on: debian-latest
 
     steps:
-      # Étape 1 : Vérification du code source
+      # Étape 1 : Vérification du code sources
       - name: Checkout code
         uses: actions/checkout@v3
 
