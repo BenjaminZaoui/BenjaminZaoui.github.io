@@ -1,0 +1,20 @@
+name: Detect Push on Main
+
+#Déclencheur pour les événements "push" sur la branche "main"
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : Vérification du code source
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Étape 2 : Afficher un message
+      - name: Print a message
+        run: echo "A push has been detected on the main branch!"
